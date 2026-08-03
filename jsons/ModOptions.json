@@ -1,0 +1,16 @@
+{
+    "isBaseRuleset": true,
+    "uniques": [
+        "Can trade civilization introductions for [50] Gold"
+    ],
+    "constants": {
+        "maxXPfromBarbarians": 30,
+        "cityStrengthBase": 5.0,
+        "cityAirUnitCapacity": 5,
+        "religionLimitBase": 0,
+        "religionLimitMultiplier": 1,
+        "maxSpyRank": 5,
+        "spyRankSkillPercentBonus": 15,
+        "maxImprovementTechErasForward": 1
+    }
+}

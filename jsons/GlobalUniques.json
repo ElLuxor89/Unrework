@@ -1,0 +1,64 @@
+{
+    "name": "Global Uniques",
+    "uniques": [
+        "Requires establishing embassies to conduct advanced diplomacy",
+        "[-75]% growth [in all cities] <when between [-10] and [-1] [Happiness]>",
+        "Nullifies Growth [in all cities] <when below [-10] [Happiness]>",
+        "[-50]% [Production] [in all cities] <when below [-10] [Happiness]>",
+        "[-33]% Strength <for [All] units> <when below [-10] [Happiness]>",
+        "Cannot build [Settler] units <when below [-10] [Happiness]>",
+        "Rebel units may spawn <when below [-20] [Happiness]>",
+        "[-1] Sight <for [Embarked] units>",
+        
+
+        // stuff Stuff
+        //"Each city founded increases culture cost of policies [-50]% less than normal",
+        //"Each city founded increases Science cost of Technologies [-50]% less than normal",
+
+
+        // Tourism stuff
+        "Provides [1] [Cultural Defense] <for every [[Culture] Per Turn]>",
+        "Provides [1] [Tourism] <for every [floor([[Culture] Per Turn] / 5)]> <starting from the [Renaissance era]>",
+        "Provides [2] [Tourism] <for every [[World Wonder] Buildings]> <starting from the [Renaissance era]>",
+        
+        // World Congress
+        "Provides [1] [Vote Power]",
+        "Triggers a [World Congress Subject] event <upon turn start> <when number of [world_cd] is equal to [10]>",
+        "Triggers a [Session - Religion] event <upon turn start> <when number of [[voted1] + [voted2] + [voted3]] is equal to [0]> <when number of [[subject] resource of [Known] Civilizations] is equal to [1]>",
+        "Triggers a [Session - Religion] event <upon turn start> <when number of [[voted1] + [voted2] + [voted3]] is equal to [0]> <when number of [[subject] resource of [Known] Civilizations] is equal to [2]>",
+        "Triggers a [Session - Religion] event <upon turn start> <when number of [[voted1] + [voted2] + [voted3]] is equal to [0]> <when number of [[subject] resource of [Known] Civilizations] is equal to [3]>",
+        "Triggers a [Results - Religion] event <upon turn start> <when number of [world_cd] is equal to [13]> <when number of [[subject] resource of [Known] Civilizations] is equal to [1]>",
+        "Instantly consumes [1] [subject] <upon turn end> <for every [subject]> <when number of [world_cd] is equal to [13]>",
+        "Instantly consumes [1] [world_cd] <upon turn end> <for every [world_cd]> <when number of [world_cd] is equal to [13]>",
+
+        // America UU
+		"Free [[Minuteman] (copy)] appears <upon gaining a [Minuteman] unit> <hidden from users>",
+        
+        // INFLUENCE WALL OF DOOM
+        "Provides [1] [America influential] <when number of [[America] Influence] is more than [Cultural Defense]>",
+        "Provides [1] [Arabia influential] <when number of [[Arabia] Influence] is more than [Cultural Defense]>",
+        "Provides [1] [Austria influential] <when number of [[Austria] Influence] is more than [Cultural Defense]>",
+        "Provides [1] [Aztecs influential] <when number of [[Aztecs] Influence] is more than [Cultural Defense]>",
+        "Provides [1] [[America] Influence] <for every [[[Tourism] resource of [America] Civilizations] + ([[Tourism] resource of [America] Civilizations] * (([America mult] - [influence defense]) / 100))]> <for [non-[America]] Civilizations>",
+        "Provides [1] [[Arabia] Influence] <for every [[[Tourism] resource of [Arabia] Civilizations] + ([[Tourism] resource of [Arabia] Civilizations] * (([Arabia mult] - [influence defense]) / 100))]> <for [non-[Arabia]] Civilizations>",
+        "Provides [1] [[Austria] Influence] <for every [[[Tourism] resource of [Austria] Civilizations] + ([[Tourism] resource of [Austria] Civilizations] * (([Austria mult] - [influence defense]) / 100))]> <for [non-[Austria]] Civilizations>",
+        "Provides [1] [[Aztecs] Influence] <for every [[[Tourism] resource of [Aztecs] Civilizations] + ([[Tourism] resource of [Aztecs] Civilizations] * (([Aztecs mult] - [influence defense]) / 100))]> <for [non-[Aztecs]] Civilizations>",
+
+
+
+    ],
+    "unitUniques": [
+        // Wall interaction
+        "[This Unit] loses [10] movement <if [Great Wall] is not constructed> <upon entering a [Wall] tile>",
+
+        // Support unit stuff
+        "[This Unit] gains [1] movement <upon turn start> <when adjacent to a [Supply Convoy] unit>",
+        "[+1] Range <when stacked with a [Observation Balloon] unit>",
+        "[+1] Range <when stacked with a [Drone] unit>",
+        "[+20]% Strength <when stacked with a [Drone] unit>"
+        //"[This Unit] heals [12] HP <upon turn end> <when stacked with a [Medic] unit>"
+    ],
+    "civilopediaText": [
+        {"text": "Global uniques are ruleset-wide modifiers that apply to all civilizations."}
+    ]
+}

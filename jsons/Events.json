@@ -1,0 +1,412 @@
+[
+    {
+        "name":"Tutorial Task: [Move unit]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Move a unit!", "centered":true},
+            {"extraImage":"Tutorials/Move unit", "imageSize":140},
+            {"text":"Click on a unit → Click on a destination → Click the arrow popup."}
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [Units] is more than [0]>",
+            "Unavailable <if tutorial [Move unit] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Found city]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Found a city!", "centered":true},
+            {"extraImage":"Tutorials/Found city", "imageSize":140},
+            {"text":"Select the Settler → Click on 'Found city'."}
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [[Settler] Units] is more than [0]>",
+            "Unavailable <if tutorial [Found city] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Enter city screen]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Enter the city screen!", "centered":true},
+            {"extraImage":"Tutorials/Enter city screen", "imageSize":100},
+            {"text":"Click the city button twice."}
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [Cities] is more than [0]>",
+            "Unavailable <if tutorial [Enter city screen] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Pick technology]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Pick a technology to research!", "centered":true},
+            {"extraImage":"Tutorials/Pick technology", "imageSize":180},
+            {"text":"Click on the tech button → Select technology → Click 'Research' (bottom right)."}
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <if tutorial [Found city] is completed>",
+            "Unavailable <if tutorial [Pick technology] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Pick construction]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Pick a construction!", "centered":true},
+            {"extraImage":"Tutorials/Pick construction", "imageSize":120},
+            {"text":"Enter city screen → Click on a unit or building → Click 'add to queue'."}
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [Cities] is more than [0]>",
+            "Unavailable <if tutorial [Pick construction] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Pass a turn]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Pass a turn!", "centered":true},
+            {"extraImage":"Tutorials/Pass a turn", "imageSize":180},
+            {"text":"Cycle through units with 'Next unit' → Click 'Next turn'."}
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [turns] is less than [3]>",
+            "Unavailable <if tutorial [Pass a turn] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Reassign worked tiles]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Reassign worked tiles!", "centered":true},
+            {"extraImage":"Tutorials/Reassign worked tiles", "imageSize":140},
+            {"text":"Enter city screen → Click the assigned tile to unassign → Click an unassigned tile to assign population."}
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [Cities] is more than [0]>",
+            "Unavailable <if tutorial [Reassign worked tiles] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Meet another civilization]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Meet another civilization!", "centered": true},
+            {"extraImage":"Tutorials/Meet another civilization", "imageSize":160},
+            {"text":"Explore the map until you encounter another civilization!"}
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [turns] is more than [1]>",
+            "Unavailable <if tutorial [Meet another civilization] is completed>"
+        ],
+        "choices": [
+            {
+                "text":"Got it",
+                "uniques": ["Mark tutorial [Meet another civilization] complete"]
+            }
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Open the options table]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Open the options dialog!", "centered":true},
+            {"extraImage":"Tutorials/Open the options table", "imageSize":130},
+            {"text":"Click the menu button (top left) → Click 'Options'."}
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled>",
+            "Unavailable <if tutorial [Open the options table] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Construct an improvement]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Construct an improvement!", "centered":true},
+            {"extraImage":"Tutorials/Construct an improvement", "imageSize":150},
+            {"text":"Construct a Worker unit → Move it to a Plains or Grassland tile → Click 'Construct improvement' → Choose the farm → Leave the worker there until it's finished."}
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [Cities] is more than [0]>",
+            "Unavailable <if tutorial [Construct an improvement] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Create a trade route]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Create a trade route!", "centered":true},
+            {"extraImage":"Tutorials/Create a trade route", "imageSize":120},
+            {"text":"Construct roads between your capital and another city. Or, automate your worker and let him get to that eventually."}
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [Cities] is more than [1]>",
+            "Unavailable <if tutorial [Create a trade route] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Conquer a city]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Conquer a city!", "centered":true},
+            {"extraImage":"Tutorials/Conquer a city", "imageSize":160},
+            {"text":"Bring an enemy city down to low health → Enter the city with a melee unit."}
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when at war>",
+            "Unavailable <if tutorial [Conquer a city] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Move an air unit]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Move an air unit!", "centered":true},
+            {"extraImage":"Tutorials/Move an air unit", "imageSize":140},
+            {"text":"Select an air unit → Select another city within range → Move the unit to the other city."}
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [[Air] Units] is more than [0]>",
+            "Unavailable <if tutorial [Move an air unit] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [See your stats breakdown]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"See your stats breakdown!", "centered":true},
+            {"extraImage":"Tutorials/See your stats breakdown", "imageSize":140},
+            {"text":"Enter the Overview screen (top right corner) → Click on 'Stats'."}
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled>",
+            "Unavailable <if tutorial [See your stats breakdown] is completed>"
+        ]
+    },
+
+    // Spy stuff
+    {
+        "name": "Espionage Options",
+        "presentation": "Alert",
+        "text": "Espionage",
+        "choices": [
+            {
+                "text": "Enter Stealth",
+                "uniques": [
+                    "[This Unit] gains the [Hidden] status for [10] turn(s) <hidden from users>",
+
+                    "[This Unit] loses [2] movement <hidden from users>",
+                    "[This Unit] loses the [Espionage] promotion <hidden from users>",
+                    "Only available <for units without [Hidden]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Sabotage improvement",
+                "uniques": [
+                    "[This Unit] gains the [Sabotaging] status for [3] turn(s)",
+
+                    "[This Unit] loses the [Espionage] promotion <hidden from users>",
+                    "Only available <in [{non-[Unowned]} {non-[your]}] tiles> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Investigate for spy activity",
+                "uniques": [
+                    "Comment [Becomes able to see hidden [Recon] units for 4 turn(s) after investigating]",
+                    "[This Unit] gains the [Investigating] status for [2] turn(s)",
+
+                    "[This Unit] loses the [Espionage] promotion <hidden from users>",
+                    "Only available <in [your] tiles> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Cancel",
+                "uniques": [
+                    "[This Unit] gains [+2] movement <hidden from users>",
+                    "[This Unit] loses the [Espionage] promotion <hidden from users>"
+                ]
+            }
+        ]
+    },
+
+    // Diplomat stuff
+    {
+        "name": "Diplomat Options",
+        "presentation": "Alert",
+        "text": "Diplomatic Activities",
+        "choices": [
+            {
+                "text": "Set up diplomat",
+                "uniques": [
+                    "[This Unit] gains the [Setting Up] status for [3] turn(s)",
+
+                    "[This Unit] loses the [Diplomatic Activities] promotion <hidden from users>",
+                    "Only available <for units without [Diplomat Ready]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Statistical Analysis",
+                "uniques": [
+                    "Comment [Allows you to view the influence and [Cultural Defense] of this Civilization]",
+                    "[This Unit] gains the [Performing Analysis] status for [3] turn(s)",
+
+                    "[This Unit] loses the [Diplomatic Activities] promotion <hidden from users>",
+                    "Only available <for units with [Diplomat Ready]> <when [non-[Analysis]]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Spread Influence",
+                "uniques": [
+                    "Comment [Spreads your civilizations ideology, boosting your [Tourism]]",
+                    "Instantly provides [1] [Tourism] <for every [[Tourism] / 5]> <hidden from users>",
+                    "[This Unit] gains the [Cooldown] status for [13] turn(s) <hidden from users>",
+
+                    "[This Unit] loses the [Diplomatic Activities] promotion <hidden from users>",
+                    "Only available <for units with [Diplomat Ready]> <starting from the [Industrial era]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Obtain Delegates",
+                "uniques": [
+
+                    "[This Unit] loses the [Diplomatic Activities] promotion <hidden from users>",
+                    "Only available <for units with [Diplomat Ready]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Cancel",
+                "uniques": [
+                    "[This Unit] gains [+2] movement <hidden from users>",
+                    "[This Unit] loses the [Diplomatic Activities] promotion <hidden from users>"
+                ]
+            },
+            {
+                "text": "Leave City",
+                "uniques": [
+                    "[This Unit] loses the [Diplomat Ready] promotion <hidden from users>",
+
+                    "[This Unit] loses the [Analysis: America] promotion <hidden from users>",
+                    "[This Unit] loses the [Analysis: Arabia] promotion <hidden from users>",
+                    "[This Unit] loses the [Analysis: Austria] promotion <hidden from users>",
+                    "[This Unit] loses the [Analysis: Aztecs] promotion <hidden from users>",
+
+                    "[This Unit] loses the [Diplomatic Activities] promotion <hidden from users>",
+                    "Only available <for units with [Diplomat Ready]> <hidden from users>"
+                ]
+            }
+        ]
+    },
+
+    // World congress stuff
+
+    {
+        "name": "World Congress Subject",
+        "presentation": "None",
+        "choices": [
+            {
+                "text": "1",
+                "uniques": [
+                    "Instantly provides [1] [subject]"
+                ]
+            },
+            {
+                "text": "2",
+                "uniques": [
+                    "Instantly provides [1] [subject]"
+                ]
+            },
+            {
+                "text": "3",
+                "uniques": [
+                    "Instantly provides [1] [subject]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Session - Religion",
+        "presentation": "Alert",
+        "text": "World Congress - Religion",
+        "civilopediaText": [
+            { "text": "Welcome to the World Congress! Here, you may vote on one of the following bills." }
+        ],
+        "choices": [
+            {
+                "text": "Bill 1 - [Rationalist Focus]",
+                "uniques": [
+                    "Provides [1] [voted1] <for every [Vote Power]> <for [4] turns> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    { "text": "+15% [Science]"},
+                    { "text": "-10% [Faith]" }
+                ]
+            },
+            {
+                "text": "Bill 2 - [Interfaith Dialogue]",
+                "uniques": [
+                    "Provides [1] [voted2] <for every [Vote Power]> <for [4] turns> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    { "text": "[Faith] cost of purchasing [Missionary] units [-30]%"},
+                    { "text": "[Faith] cost of purchasing [Great Prophet] units [-10]%"}
+                ]
+            },
+            {
+                "text": "Bill 3 - [Religious Intolerance]",
+                "uniques": [
+                    "Provides [1] [voted3] <for every [Vote Power]> <for [4] turns> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    { "text": "[Faith] cost of purchasing [Inquisitor] units [-30]%"},
+                    { "text": "+15% [Faith]"}
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Results - Religion",
+        "presentation": "Alert",
+        "text": "World Congress - Religion",
+        "civilopediaText": [
+            { "text": "After 3 turns of voting, these are the results..." }
+        ],
+        "choices": [
+            {
+                "text": "Bill 1 - [Rationalist Focus]",
+                "uniques": [
+                    "[+15]% [Science] <for [13] turns>",
+                    "[-10]% [Faith] <for [13] turns>",
+                    "Only available <when number of [[voted1] resource of [All] Civilizations] is more than [[voted2] resource of [All] Civilizations]> <when number of [[voted1] resource of [All] Civilizations] is more than [[voted3] resource of [All] Civilizations]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Bill 2 - [Interfaith Dialogue]",
+                "uniques": [
+                    "[Faith] cost of purchasing [Missionary] units [-30]% <for [13] turns>",
+                    "[Faith] cost of purchasing [Great Prophet] units [-10]% <for [13] turns>",
+                    "Only available <when number of [[voted2] resource of [All] Civilizations] is more than [[voted1] resource of [All] Civilizations]> <when number of [[voted2] resource of [All] Civilizations] is more than [[voted3] resource of [All] Civilizations]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Bill 3 - [Religious Intolerance]",
+                "uniques": [
+                    "[Faith] cost of purchasing [Inquisitor] units [-30]% <for [13] turns>",
+                    "[+15]% [Faith] <for [13] turns>",
+                    "Only available <when number of [[voted3] resource of [All] Civilizations] is more than [[voted1] resource of [All] Civilizations]> <when number of [[voted3] resource of [All] Civilizations] is more than [[voted2] resource of [All] Civilizations]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "...No bill recieved a majority",
+                "uniques": [
+                    "Unavailable <when number of [[voted1] resource of [All] Civilizations] is more than [[voted2] resource of [All] Civilizations]> <when number of [[voted1] resource of [All] Civilizations] is more than [[voted3] resource of [All] Civilizations]> <hidden from users>",
+                    "Unavailable <when number of [[voted2] resource of [All] Civilizations] is more than [[voted1] resource of [All] Civilizations]> <when number of [[voted2] resource of [All] Civilizations] is more than [[voted3] resource of [All] Civilizations]> <hidden from users>",
+                    "Unavailable <when number of [[voted3] resource of [All] Civilizations] is more than [[voted1] resource of [All] Civilizations]> <when number of [[voted3] resource of [All] Civilizations] is more than [[voted2] resource of [All] Civilizations]> <hidden from users>"
+                ]
+            }
+        ]
+    }
+]
